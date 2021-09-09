@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Java App Selenium Framework" parallel="tests" verbose="1" thread-count="5">
+    <test name="AppTest">
+        <classes>
+            <class name="TestCases.TC01_Admin_Login"/>
+        </classes>
+    </test>
+</suite>
